@@ -11,6 +11,7 @@ const HeroSection = () => {
           <img
             src={hero_img}
             className="w-[350px] lg:w-[490px] lg:h-[394px] h-[290px] z-10 relative"
+            alt="hero"
           />
         </div>
       </div>

@@ -2,7 +2,7 @@ const DonateCardSub = ({ img, title, heading }) => {
   return (
     <div className="border-6 rounded-[20px] transititon-all delay-75  border-button-color lg:hover:border-button-color  lg:border-donate-border-sub">
       <div className="py-[38px] px-2 flex flex-col items-center text-center  justify-center">
-        <img src={img} className="w-[90px] h-[90px] mb-5" />
+        <img src={img} className="w-[90px] h-[90px] mb-5" alt="donate" />
         <p className="font-manuale font-semibold pb-5 text-lg leading-normal">
           {heading}
         </p>

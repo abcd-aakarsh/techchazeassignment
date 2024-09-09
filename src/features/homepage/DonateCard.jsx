@@ -5,7 +5,7 @@ const DonateCard = ({ img, bordercolor, btncolor, title, heading }) => {
       style={bordercolor}
     >
       <div className="py-[38px] px-2 flex flex-col items-center text-center  justify-center">
-        <img src={img} className="w-[90px] h-[90px] mb-5" />
+        <img src={img} className="w-[90px] h-[90px] mb-5" alt="donate" />
         <p className="font-manuale font-semibold pb-5 text-lg leading-normal">
           {heading}
         </p>

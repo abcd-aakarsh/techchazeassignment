@@ -13,7 +13,7 @@ const Header = () => {
     <>
       <header className="py-5 md:py-11 px-[22px] md:px-[120px] items-center justify-between flex">
         <div>
-          <img src={logo} className="w-10 h-10" />
+          <img src={logo} className="w-10 h-10" alt="logo" />
         </div>
         <nav className="flex items-center">
           <ul className="hidden md:flex gap-10 text-text-color font-normal pt-2 text-lg font-montserrat leading-5 ml-14">
@@ -41,7 +41,7 @@ const Header = () => {
         </button>
 
         <div className="flex items-center md:hidden" onClick={toggleMobileMenu}>
-          <img src={menu} />
+          <img src={menu} alt="menu" />
         </div>
       </header>
 

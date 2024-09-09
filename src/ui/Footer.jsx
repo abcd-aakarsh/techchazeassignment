@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="absolute top-5 w-11/12 left-1/2 transform -translate-x-1/2 bg-button-color lg:px-20 lg:pt-[44px] pb-[12px] lg:pb-12px z-10 rounded-[20px] shadow-lg">
         <div className="grid grid-cols-2 lg:grid-cols-5 lg:items-center lg:grid-rows-1 gap-5 pt-[41px] px-[11px]">
           <div className="pl-[24px]">
-            <img src={logo} className="w-[113px] h-[113px]" alt="Footer Logo" />
+            <img src={logo} className="w-[113px] h-[113px]" alt="Footer" />
           </div>
 
           <div className="pt-2">

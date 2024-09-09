@@ -11,7 +11,7 @@ const StatisticsSection = () => {
         <div className="bg-button-color w-full p-8 z-30  md:p-16 rounded-[40px] ">
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-4 md:grid-cols-4 justify-center p-2">
             <div className=" flex items-center justify-center flex-col text-center">
-              <img src={npo} className="w-[70px] h-[70px]" />
+              <img src={npo} className="w-[70px] h-[70px]" alt="stats" />
               <div className="font-manuale flex items-center justify-center flex-col text-center  ">
                 <p className="text-circle-color text-[40px] lg:text-[70px] leading-tight font-semibold">
                   563
@@ -23,7 +23,7 @@ const StatisticsSection = () => {
             </div>
 
             <div className=" flex items-center justify-center flex-col text-center">
-              <img src={handshake} className="w-[70px] h-[70px]" />
+              <img src={handshake} className="w-[70px] h-[70px]" alt="stats" />
               <div className="font-manuale flex items-center justify-center flex-col text-center  ">
                 <p className="text-circle-color text-[40px] lg:text-[70px] leading-tight font-semibold">
                   425
@@ -35,7 +35,7 @@ const StatisticsSection = () => {
             </div>
 
             <div className=" flex items-center justify-center flex-col text-center">
-              <img src={donate} className="w-[70px] h-[70px]" />
+              <img src={donate} className="w-[70px] h-[70px]" alt="stats" />
               <div className="font-manuale flex items-center justify-center flex-col text-center  ">
                 <p className="text-circle-color text-[40px] lg:text-[70px] leading-tight font-semibold">
                   978
@@ -47,7 +47,7 @@ const StatisticsSection = () => {
             </div>
 
             <div className=" flex items-center justify-center pb-6 md:pb-0 flex-col text-center">
-              <img src={welfare} className="w-[70px] h-[70px]" />
+              <img src={welfare} className="w-[70px] h-[70px]" alt="stats" />
               <div className="font-manuale flex items-center justify-center flex-col text-center  ">
                 <p className="text-circle-color text-[40px] lg:text-[70px] leading-tight font-semibold">
                   32
